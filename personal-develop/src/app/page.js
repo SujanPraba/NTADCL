@@ -62,7 +62,6 @@ export default function Home() {
     }
   };
   useEffect(() => {
-    // Add the 'scroll-smooth' class to html and body elements
     document.documentElement.classList.add("scroll-smooth");
     document.body.classList.add("scroll-smooth");
 
@@ -126,7 +125,7 @@ export default function Home() {
               </li>
               <li>
                 <a href="#faq" className="block py-2 px-3 font-[400]">
-                  FAQ's
+                  FAQ&apos;s
                 </a>
               </li>
               <li>
@@ -165,7 +164,7 @@ export default function Home() {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
+                  strokeLinecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
                   d="M1 1h15M1 7h15M1 13h15"
@@ -198,7 +197,7 @@ export default function Home() {
                 </li>
                 <li>
                   <a href="#faq" className="block py-2 px-3 font-[400]">
-                    FAQ's
+                    FAQ&apos;s
                   </a>
                 </li>
                 <li>
@@ -461,7 +460,7 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <Image src={waterTreatment} />
+            <Image src={waterTreatment} alt="img"/>
           </div>
         </section>
         {/* <------------------------------------------------- GALLERY SECTIONS------------------------------------------------> */}
@@ -542,7 +541,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex lg:items-center justify-center">
-            <Image src={sweageTreatment} />
+            <Image src={sweageTreatment} alt="img"/>
           </div>
         </section>
         {/* <-------------------------------------------------DEVELOPMENT SECTIONS------------------------------------------------> */}
@@ -617,7 +616,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex lg:items-center justify-center  pt-2">
-            <Image src={aboutUs} />
+            <Image src={aboutUs} alt="img"/>
           </div>
         </section>
         {/* <-------------------------------------------------BOARD OF DIRECTORS SECTIONS------------------------------------------------> */}
@@ -859,7 +858,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <Image src={discover} />
+            <Image src={discover} alt="img"/>
           </div>
         </section>
         {/* <-------------------------------------------------CONTACT SECTIONS------------------------------------------------> */}
@@ -892,7 +891,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex items-center ">
-            <Image src={map}  className="w-[400px] lg:w-[586px]"/>
+            <Image src={map}  className="w-[400px] lg:w-[586px]" alt="img"/>
           </div>
         </section>
         {/* <-------------------------------------------------ADDRESS SECTIONS------------------------------------------------> */}
@@ -901,7 +900,7 @@ export default function Home() {
           <div className="lg:w-1/4">
             <p className="font-bold text-xl"> Corporate Office Address:</p>
             <p className="font-normal text-base pt-4">
-              "Polyhose Towers", First Floor,No.86,Mount Road, Guindy, Chennai
+            &quot;Polyhose Towers&quot;, First Floor,No.86,Mount Road, Guindy, Chennai
               600 032. Phone: +91 44 2235 1890 / 91 Fax: +91 44 2235 1894 Email:
               contactus@ntadcl.com CIN: U91990TZ1995PLC005869.
             </p>
@@ -932,7 +931,7 @@ export default function Home() {
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
               <li>
                 <a
-                  href="#"
+                  href="#aboutus"
                   className="block py-2 px-3 font-[400] "
                   aria-current="page"
                 >
@@ -945,13 +944,13 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 font-[400]">
+                <a href="#contact" className="block py-2 px-3 font-[400]">
                   Contact us
                 </a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 font-[400]">
-                  FAQ's
+                <a href="#faq" className="block py-2 px-3 font-[400]">
+                  FAQ&apos;s
                 </a>
               </li>
               <li>

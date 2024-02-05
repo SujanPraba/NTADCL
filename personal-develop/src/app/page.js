@@ -139,13 +139,13 @@ export default function Home() {
       </nav>
     </div>
     <div className="hidden md:block">
-        <nav className="bg-white border-gray-200 sticky top-0 ">
+        <nav className="bg-white border-gray-200 sticky top-0 z-">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a
               href="https://flowbite.com/"
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
-              <Image src={logo} className="h-8" alt="Logo" />
+              <Image src={logo} className="h-[60px]" alt="Logo" />
             </a>
             <button
               data-collapse-toggle="navbar-default"
@@ -547,7 +547,7 @@ export default function Home() {
         {/* <-------------------------------------------------DEVELOPMENT SECTIONS------------------------------------------------> */}
         <section className="lg:pt-[150px] pt-[70px]">
           <div className="lg:w-[40%] mx-auto ">
-            <p className="font-[500] lg:text-[30px] text-[17px] text-center">
+            <p className="text-center lg:text-[32px] text-[17px] font-semibold">
               Transforming Tirupur through development
             </p>
           </div>
@@ -900,23 +900,23 @@ export default function Home() {
           <div className="lg:w-1/4">
             <p className="font-bold text-xl"> Corporate Office Address:</p>
             <p className="font-normal text-base pt-4">
-            &quot;Polyhose Towers&quot;, First Floor,No.86,Mount Road, Guindy, Chennai
-              600 032. Phone: +91 44 2235 1890 / 91 Fax: +91 44 2235 1894 Email:
-              contactus@ntadcl.com CIN: U91990TZ1995PLC005869.
+            &quot;Polyhose Towers&quot;,<br></br> First Floor,No.86,Mount Road,<br></br> Guindy, Chennai
+              600 032.<br></br> Phone: +91 44 2235 1890 / 91<br></br> Fax: +91 44 2235 1894 <br></br> Email:
+              contactus@ntadcl.com <br></br> CIN: U91990TZ1995PLC005869.
             </p>
           </div>
           <div className="lg:w-1/4 pt-4 lg:pt-[0px]">
             <p className="font-bold text-xl"> Registered Office Address:</p>
             <p className="font-normal text-base pt-4">
-              No.66, Appachi Nagar, Main Road Kongu Nagar,Tirupur 641 607.Phone:
-              + 91 421 2486864 / 2481165 Fax: +91 421 2486874
+              No.66, Appachi Nagar,<br></br> Main Road Kongu Nagar,<br></br>Tirupur 641 607. <br></br>Phone:
+              + 91 421 2486864 / 2481165<br></br> Fax: +91 421 2486874
             </p>
           </div>
           <div className="lg:w-1/4 pt-4 lg:pt-[0px]">
             <p className="font-bold text-xl"> Tirupur Office Address:</p>
             <p className="font-normal text-base pt-4">
-              Kumaran Commercial Complex,First Floor, Kumaran Road, Tirupur 641
-              601 Phone: + 91 421 2486864 / 2481165 Fax: +91 421 2486874 Email:
+              Kumaran Commercial Complex,<br></br>First Floor, Kumaran Road,<br></br> Tirupur 641
+              601 <br></br>Phone: + 91 421 2486864 / 2481165<br></br> Fax: +91 421 2486874<br></br> Email:
               tirupur@ntadcl.com
             </p>
           </div>
